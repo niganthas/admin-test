@@ -1,0 +1,14 @@
+.navigation {
+  height: 100vh;
+  border-right: 1px solid #ddd;
+  width: 230px;
+
+  ul {
+    padding: 30px 20px;
+    list-style: none;
+    li {
+      margin-bottom: 17px;
+      font-size: 18px;
+    }
+  }
+}

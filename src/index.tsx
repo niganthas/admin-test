@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Backendless from 'backendless';
+
+import App from './components/app';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+
+Backendless.initApp('66893306-427E-DAD5-FFC4-BE3E1524A600', 'AA6B7036-B2F4-4FC5-A8E9-FE7DA6E9F36B');
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
